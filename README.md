@@ -14,7 +14,7 @@
   <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/Tailwindcss-passing?style=for-the-badge&logo=tailwindcss&color=2d3436">
 </a>
 <a href="">
-<img alt="Static Badge" src="https://img.shields.io/badge/github-passing?style=for-the-badge&logo=github&color=2d3436">
+<img alt="Static Badge" src="https://img.shields.io/badge/vite-passing?style=for-the-badge&logo=vite&color=2d3436">
 </a>
 </p>
 
