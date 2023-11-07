@@ -11,6 +11,12 @@
   --sub-head-color: #e5e5e5;
 }
 
+html {
+  scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+
 body {
   font-size: 1.6rem;
   line-height: 1.7;
