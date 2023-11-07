@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #171717;
+  --text-color: #737373;
+  --head-color: #d4d4d4;
+  --sub-head-color: #e5e5e5;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-color);
+  color: var(--head-color);
+}
+
+ul {
+  list-style: none;
+}
+
+@media (max-width: 645px) {
+  :root {
+    font-size: 50%;
+  }
+}
