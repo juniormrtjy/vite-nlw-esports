@@ -1,8 +1,41 @@
-# React + Vite
+# NLW eSports Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
+  
+  <!-- <a href="#-layout">Layout</a> -->
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/React-passing?style=for-the-badge&logo=react&color=2d3436">
+  </a>
+  <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/Tailwindcss-passing?style=for-the-badge&logo=tailwindcss&color=2d3436">
+</a>
+<a href="">
+<img alt="Static Badge" src="https://img.shields.io/badge/github-passing?style=for-the-badge&logo=github&color=2d3436">
+</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center">
+  <img alt="Nlw eSports Challenge" title="#Nlw eSports Challenge" src="./src/assets/nlw esports image.jpeg" style="width:400px"/>
+
+ </h1>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- React
+- Tailwindcss
+- Github
+- Figma
+
+## 💻 Projeto
+
+- [Visite o projeto online](https://vite-nlw-esports.vercel.app/)
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1150897317533332617). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
