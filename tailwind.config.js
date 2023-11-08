@@ -14,7 +14,7 @@ export default {
         }
       },
       animation: {
-        fromTop: 'fromTop 0.8s 9.3s backwards',
+        fromTop: 'fromTop 0.8s 0.3s backwards',
         fromLeft: 'fromLeft 1s 0.3s backwards'
       }
     }
