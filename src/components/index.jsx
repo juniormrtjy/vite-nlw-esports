@@ -7,7 +7,7 @@ export default function MainContent() {
     <main className="max-w-[72rem] w-11/12 mx-auto my-8">
       <SectionIntro />
       <GameLinks />
-      <SectionGame/>
+      <SectionGame />
     </main>
   )
 }

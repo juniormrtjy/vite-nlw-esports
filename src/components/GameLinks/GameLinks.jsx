@@ -1,6 +1,9 @@
 export default function GameLinks() {
   return (
-    <section id="games" className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.5rem]">
+    <section
+      id="games"
+      className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.5rem]"
+    >
       <div className="bg-neutral-800 rounded-[0.8rem] p-[3.4rem]">
         <h2 className="text-neutral-400 font-bold text-[3.6rem]">Games</h2>
 
