@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll'
 import { TwitchLogo } from '@phosphor-icons/react'
 
 export default function SectionGame() {
@@ -5,8 +6,8 @@ export default function SectionGame() {
     <div>
       {/* ========== TIBIA ========== */}
       <section
-        id="tibia"
-        className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem]"
+        name="tibia"
+        className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem] animate-[fromLeft_1s_0.6s_backwards] "
       >
         {/* BOX */}
         <div className="bg-neutral-800 rounded-[0.8rem] p-[3.4rem]">
@@ -103,19 +104,20 @@ export default function SectionGame() {
             {/* ... */}
           </ul>
 
-          <a
-            href="#games"
-            className="underline text-neutral-500 hover:text-neutral-400"
+          <Link
+            to="games"
+            offset={-15}
+            className="underline text-neutral-500 hover:text-neutral-400 cursor-pointer"
           >
             Games
-          </a>
+          </Link>
         </div>
       </section>
 
       {/* ========== COUNTER-STRIKE 2 ========== */}
       <section
-        id="counter-strike"
-        className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem]"
+        name="counter-strike"
+        className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem] animate-[fromLeft_1s_0.7s_backwards]"
       >
         {/* BOX */}
         <div className="bg-neutral-800 rounded-[0.8rem] p-[3.4rem]">
@@ -204,19 +206,20 @@ export default function SectionGame() {
             {/* ... */}
           </ul>
 
-          <a
-            href="#games"
-            className="underline text-neutral-500 hover:text-neutral-400"
+          <Link
+            to="games"
+            offset={-15}
+            className="underline text-neutral-500 hover:text-neutral-400 cursor-pointer"
           >
             Games
-          </a>
+          </Link>
         </div>
       </section>
 
       {/* ========== GUILD WARS 2 ========== */}
       <section
-        id="guild-wars"
-        className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem]"
+        name="guild-wars"
+        className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem] animate-[fromLeft_1s_0.8s_backwards]"
       >
         {/* BOX */}
         <div className="bg-neutral-800 rounded-[0.8rem] p-[3.4rem]">
@@ -306,20 +309,18 @@ export default function SectionGame() {
             {/* ... */}
           </ul>
 
-          <a
-            href="#games"
-            className="underline text-neutral-500 hover:text-neutral-400"
+          <Link
+            to="games"
+            offset={-15}
+            className="underline text-neutral-500 hover:text-neutral-400 cursor-pointer"
           >
             Games
-          </a>
+          </Link>
         </div>
       </section>
 
-      {/* ========== GUILD WARS 2 ========== */}
-      <section
-        id="guild-wars"
-        className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem]"
-      >
+      {/* ========== Rocketseat ========== */}
+      <section className="bg-gradient-to-r from-[red] to-[blue] pt-[0.4rem] mt-[2.4rem] rounded-[1.1rem] animate-[fromLeft_1s_0.9s_backwards]">
         {/* BOX */}
         <div className="bg-neutral-800 rounded-[0.8rem] p-[3.4rem]">
           {/* TITLE */}
@@ -356,12 +357,13 @@ export default function SectionGame() {
             Rocketseat{' '}
           </a>
 
-          <a
-            href="#games"
-            className="underline text-neutral-500 hover:text-neutral-400"
+          <Link
+            to="games"
+            offset={-15}
+            className="underline text-neutral-500 hover:text-neutral-400 cursor-pointer"
           >
-            Games
-          </a>
+            Topo
+          </Link>
         </div>
       </section>
     </div>
